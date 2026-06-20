@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PhotoRestore Pro — Restauración y Mejora de Fotos con IA</title>
+  <style>
+    :root {
+      --brand:        #e05c3a;
+      --brand-light:  #f5866a;
+      --brand-dim:    #fde8e2;
+      --accent:       #7c5cbf;
+      --bg:           #ffffff;
+      --surface:      #f8f5f2;
+      --border:       #ece7e2;
+      --fg:           #1e1a17;
+      --fg-muted:     #6b6360;
+      --fg-subtle:    #a09896;
+      --radius-sm:    8px;
+      --radius-md:    16px;
+      --radius-lg:    24px;
+      --shadow-sm:    0 1px 3px rgba(0,0,0,.07), 0 1px 2px rgba(0,0,0,.05);
+      --shadow-md:    0 4px 16px rgba(0,0,0,.10), 0 2px 6px rgba(0,0,0,.06);
+      --shadow-lg:    0 12px 40px rgba(0,0,0,.14), 0 4px 12px rgba(0,0,0,.08);
+      --max-w:        960px;
+      --ff-body:      "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --brand:       #f5866a; --brand-light: #f9aa94; --brand-dim:   #3a2318;
+        --accent:      #a585e0; --bg:          #131110; --surface:     #1e1b18;
+        --border:      #302c28; --fg:          #ede8e3; --fg-muted:    #a09896;
+        --fg-subtle:   #5c5552;
+      }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--ff-body); font-size: 16px; line-height: 1.65; color: var(--fg);
+      background: var(--bg); -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
+    section { padding: 80px 0; }
+    header {
+      background: linear-gradient(145deg, #fff7f4 0%, #fde8e2 50%, #f0eaff 100%);
+      border-bottom: 1px solid var(--border); overflow: hidden; position: relative;
+    }
+    @media (prefers-color-scheme: dark) {
+      header { background: linear-gradient(145deg, #1e1510 0%, #2a1a13 50%, #1a1428 100%); }
+    }
+    header::before, header::after {
+      content: ""; position: absolute; border-radius: 50%; filter: blur(80px); opacity: .35; pointer-events: none;
+    }
+    header::before { width: 420px; height: 420px; background: radial-gradient(circle, #f5866a, transparent 70%); top: -120px; left: -80px; }
+    header::after { width: 320px; height: 320px; background: radial-gradient(circle, #a585e0, transparent 70%); bottom: -100px; right: -60px; }
+    .hero { position: relative; z-index: 1; text-align: center; padding: 100px 24px 80px; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px; background: var(--brand-dim); color: var(--brand);
+      font-size: 13px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase;
+      padding: 5px 14px; border-radius: 999px; margin-bottom: 28px;
+    }
+    .hero-badge svg { flex-shrink: 0; }
+    h1 {
+      font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800; letter-spacing: -.03em;
+      line-height: 1.15; color: var(--fg); margin-bottom: 20px;
+    }
+    h1 span {
+      background: linear-gradient(135deg, var(--brand) 0%, var(--accent) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .hero-sub { font-size: 1.15rem; color: var(--fg-muted); max-width: 600px; margin: 0 auto 40px; }
+    .hero-meta { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; font-size: 13.5px; color: var(--fg-subtle); }
+    .hero-meta span { display: flex; align-items: center; gap: 5px; }
+    .download-btn-container { margin-top: 44px; }
+    .download-btn {
+      display: inline-flex; align-items: center; gap: 10px; padding: 14px 32px; font-size: 15px;
+      font-weight: 700; letter-spacing: .02em; background: linear-gradient(135deg, var(--brand) 0%, #ff6b4a 100%);
+      color: #ffffff; text-decoration: none; border: none; border-radius: var(--radius-md); cursor: pointer;
+      box-shadow: var(--shadow-md); transition: all .3s ease, transform .2s ease; white-space: nowrap;
+    }
+    .download-btn:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(224, 92, 58, 0.3); }
+    .download-btn:active { transform: translateY(-2px); }
+    .download-btn svg { width: 18px; height: 18px; flex-shrink: 0; }
+    .screenshots-section { background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .screenshots-section .section-label { text-align: center; margin-bottom: 48px; }
+    .screenshots-grid { display: grid; grid-template-columns: 1fr; gap: 28px; max-width: 860px; margin: 0 auto; }
+    .screenshot-card { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); background: var(--bg); border: 1px solid var(--border); }
+    .screenshot-caption { padding: 16px 20px; font-size: 14px; font-weight: 600; color: var(--fg-muted); border-top: 1px solid var(--border); }
+    .section-label h2 {
+      font-size: clamp(1.6rem, 3.5vw, 2.2rem); font-weight: 800; letter-spacing: -.025em;
+      color: var(--fg); margin-bottom: 12px;
+    }
+    .section-label p { font-size: 1.05rem; color: var(--fg-muted); max-width: 540px; margin: 0 auto; }
+    .overline { display: block; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--brand); margin-bottom: 8px; }
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 20px; margin-top: 52px; }
+    .feature-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md);
+      padding: 28px 24px; transition: box-shadow .2s, transform .2s;
+    }
+    .feature-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+    .feature-icon {
+      width: 44px; height: 44px; border-radius: var(--radius-sm); display: flex; align-items: center;
+      justify-content: center; margin-bottom: 16px; font-size: 20px;
+    }
+    .feature-card h3 { font-size: 15.5px; font-weight: 700; color: var(--fg); margin-bottom: 8px; }
+    .feature-card p { font-size: 14px; color: var(--fg-muted); line-height: 1.6; }
+    .ai-pill {
+      display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+      padding: 2px 8px; border-radius: 999px; background: linear-gradient(135deg, var(--brand), var(--accent));
+      color: #fff; margin-left: 6px; vertical-align: middle; position: relative; top: -1px;
+    }
+    .icon-orange { background: #fde8e2; color: #c94f30; }
+    .icon-purple { background: #efe8ff; color: #6b44b8; }
+    .icon-blue   { background: #e0f0ff; color: #1a65c0; }
+    .icon-green  { background: #e0f5ec; color: #1a7a4a; }
+    .icon-teal   { background: #ddf4f2; color: #1a7870; }
+    .icon-amber  { background: #fef3d0; color: #9a6a00; }
+    .icon-rose   { background: #fce8f0; color: #b82860; }
+    .icon-indigo { background: #e8eaff; color: #3040b8; }
+    @media (prefers-color-scheme: dark) {
+      .icon-orange { background: #3a1a0e; color: #f5866a; }
+      .icon-purple { background: #200e40; color: #c09fff; }
+      .icon-blue   { background: #0a2040; color: #80bfff; }
+      .icon-green  { background: #082818; color: #6fdba5; }
+      .icon-teal   { background: #062820; color: #6fd5c8; }
+      .icon-amber  { background: #2c1f00; color: #ffd060; }
+      .icon-rose   { background: #3a0818; color: #f080a0; }
+      .icon-indigo { background: #0e1240; color: #a0aaff; }
+    }
+    .privacy-section { background: var(--surface); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .privacy-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 44px; }
+    .privacy-card {
+      background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-md);
+      padding: 24px 20px; text-align: center; box-shadow: var(--shadow-sm);
+    }
+    .privacy-card .privacy-icon { font-size: 28px; margin-bottom: 12px; }
+    .privacy-card h4 { font-size: 14.5px; font-weight: 700; color: var(--fg); margin-bottom: 6px; }
+    .privacy-card p { font-size: 13px; color: var(--fg-muted); line-height: 1.55; }
+    .lang-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 36px; }
+    .lang-tag {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 999px;
+      padding: 6px 18px; font-size: 13.5px; font-weight: 600; color: var(--fg-muted);
+    }
+    footer { border-top: 1px solid var(--border); padding: 36px 24px; text-align: center; font-size: 13px; color: var(--fg-subtle); }
+    footer a { color: var(--fg-muted); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    .divider { width: 48px; height: 4px; background: linear-gradient(90deg, var(--brand), var(--accent)); border-radius: 2px; margin: 0 auto 24px; }
+    @media (max-width: 600px) {
+      section { padding: 56px 0; }
+      .hero { padding: 72px 20px 56px; }
+      .screenshots-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="hero">
+    <div class="hero-badge">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+        <path d="M8 12 Q12 8 16 11 Q12 16 8 12Z"/>
+      </svg>
+      PhotoRestore Pro
+    </div>
+
+    <h1>Restauración de Fotos con IA,<br><span>Totalmente Offline en Windows</span></h1>
+
+    <p class="hero-sub">
+      Un estudio completo de mejora de fotos con IA para Windows. Repare fotos antiguas, escale a 4K, añada color a imágenes en blanco y negro, elimine arañazos y más — todo procesado localmente sin subir datos.
+    </p>
+
+    <div class="hero-meta">
+      <span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3h8.5v8.5H3zm9.5 0H21v8.5h-8.5zM3 12.5h8.5V21H3zm9.5 0H21V21h-8.5z"/></svg>
+        Windows 10 / 11
+      </span>
+      <span>·</span>
+      <span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8v8"/></svg>
+        ONNX Runtime
+      </span>
+      <span>·</span>
+      <span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        100% Offline
+      </span>
+      <span>·</span>
+      <span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        7 Idiomas
+      </span>
+    </div>
+
+    <div class="download-btn-container">
+      <a href="https://apps.microsoft.com/detail/9n3p5flw85x8?hl=es-ES&gl=ES" class="download-btn" target="_blank" rel="noopener noreferrer">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"/></svg>
+        Descargar desde Microsoft Store
+      </a>
+    </div>
+  </div>
+</header>
+
+<section class="screenshots-section">
+  <div class="container">
+    <div class="section-label">
+      <span class="overline">En Acción</span>
+      <h2>Véalo por Sí Mismo</h2>
+      <p>Una interfaz intuitiva y fluida que hace que la restauración de fotos con IA sea sin esfuerzo.</p>
+    </div>
+
+    <div class="screenshots-grid">
+      <div class="screenshot-card">
+        <img src="1.jpg" alt="PhotoRestore Pro — Pantalla de inicio con ocho tarjetas de funciones IA" style="width:100%;display:block;" />
+        <div class="screenshot-caption">Inicio — Ocho Entradas de Funciones de un Vistazo</div>
+      </div>
+
+      <div class="screenshot-card">
+        <img src="2.jpg" alt="PhotoRestore Pro — Restauración de fotos antiguas con comparación antes y después" style="width:100%;display:block;" />
+        <div class="screenshot-caption">Restauración de Fotos Antiguas — Comparación Antes &amp; Después</div>
+      </div>
+
+      <div class="screenshot-card">
+        <img src="3.jpg" alt="PhotoRestore Pro — Colorización IA transformando una foto en blanco y negro a color" style="width:100%;display:block;" />
+        <div class="screenshot-caption">Colorización IA — Devolviendo la Vida a la Historia</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-label" style="text-align:center;">
+      <span class="overline">Funciones</span>
+      <div class="divider"></div>
+      <h2>Ocho Herramientas Poderosas, Una Aplicación</h2>
+      <p>Desde fotos familiares descoloridas hasta tomas de baja resolución, PhotoRestore Pro cubre cada escenario de restauración.</p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon icon-amber">🗃️</div>
+        <h3>Restauración de Fotos Antiguas <span class="ai-pill">IA</span></h3>
+        <p>Devuelva la vida a fotos severamente envejecidas o descoloridas. Un pipeline completo de IA — eliminación de ruido, mejora de color y escalado 4× — se aplica en secuencia para la máxima calidad de salida.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon icon-orange">⚡</div>
+        <h3>Restauración Rápida de Fotos Antiguas</h3>
+        <p>Limpie instantáneamente fotos ligeramente envejecidas usando solo algoritmos tradicionales. Sin tiempo de espera de IA — los resultados aparecen en milisegundos, perfecto para retoques rápidos.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon icon-blue">🔍</div>
+        <h3>Escalado de Foto 4× <span class="ai-pill">IA</span></h3>
+        <p>Amplíe cualquier foto a cuatro veces su resolución original usando un modelo Real-ESRGAN. Recupera detalles nítidos de imágenes comprimidas o de baja resolución con una claridad notable.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon icon-purple">🎨</div>
+        <h3>Colorización IA <span class="ai-pill">IA</span></h3>
+        <p>Transforme fotografías en blanco y negro en imágenes a color naturales y vívidas. El modelo de IA analiza el contexto de la escena para producir colores plausibles y realistas sin entrada manual.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon icon-green">✨</div>
+        <h3>Mejora de Color</h3>
+        <p>Elija entre ocho presets visuales distintos — desde Natural &amp; Nítido hasta Cinematográfico — para mejorar instantáneamente el contraste, saturación y calidez de cualquier foto a color.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon icon-teal">🔧</div>
+        <h3>Reparación de Arañazos &amp; Pliegues</h3>
+        <p>Detecte y elimine arañazos físicos y líneas de pliegue de fotos escaneadas usando inpainting morfológico. Restaura la continuidad visual en áreas dañadas sin dejar artefactos.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon icon-indigo">🎞️</div>
+        <h3>Cuadrícula de Filtros 9 Estilos</h3>
+        <p>Previsualice nueve filtros artísticos lado a lado en una tira de miniaturas desplazable y elija su favorito. Los filtros incluyen Blanco &amp; Negro, Vintage Cálido, Teal Frío, Grano de Película y más.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon icon-rose">📐</div>
+        <h3>Redimensionar &amp; Recortar</h3>
+        <p>Redimensione fotos a dimensiones precisas y recorte en forma libre o según proporciones predefinidas. Perfecto para preparar imágenes para perfiles sociales, impresión o documentos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="privacy-section">
+  <div class="container">
+    <div class="section-label" style="text-align:center;">
+      <span class="overline">Privacidad Primero</span>
+      <div class="divider"></div>
+      <h2>Sus Fotos Nunca Salen de Su Dispositivo</h2>
+      <p>Toda la inferencia de IA y procesamiento de imágenes se ejecuta completamente en su máquina local. No se requiere cuenta. No se necesita conexión a Internet.</p>
+    </div>
+
+    <div class="privacy-grid">
+      <div class="privacy-card">
+        <div class="privacy-icon">🔒</div>
+        <h4>100% Offline</h4>
+        <p>Cada modelo y algoritmo se ejecuta localmente. La aplicación funciona sin conexión a Internet después de la instalación.</p>
+      </div>
+      <div class="privacy-card">
+        <div class="privacy-icon">🚫</div>
+        <h4>Cero Subida de Datos</h4>
+        <p>Sus imágenes se procesan en memoria en su propia máquina y nunca se transmiten a ningún servidor.</p>
+      </div>
+      <div class="privacy-card">
+        <div class="privacy-icon">👤</div>
+        <h4>Sin Cuenta Necesaria</h4>
+        <p>Sin registro, sin inicio de sesión, sin suscripción. Descargue desde Microsoft Store y comience a usarlo inmediatamente.</p>
+      </div>
+      <div class="privacy-card">
+        <div class="privacy-icon">⚡</div>
+        <h4>Aceleración GPU</h4>
+        <p>Los modelos de IA se ejecutan a través de ONNX Runtime con aceleración DirectML. Retrocede automáticamente a CPU en hardware no soportado.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container" style="text-align:center;">
+    <span class="overline">Multilingüe</span>
+    <div class="divider"></div>
+    <h2 style="font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:800;letter-spacing:-.025em;margin-bottom:12px;">Disponible en Su Idioma</h2>
+    <p style="color:var(--fg-muted);max-width:480px;margin:0 auto;">PhotoRestore Pro viene con localización completa de la interfaz para siete idiomas, cambiable en cualquier momento desde Configuración.</p>
+    <div class="lang-list">
+      <span class="lang-tag">🇺🇸 English</span>
+      <span class="lang-tag">🇯🇵 日本語</span>
+      <span class="lang-tag">🇩🇪 Deutsch</span>
+      <span class="lang-tag">🇫🇷 Français</span>
+      <span class="lang-tag">🇪🇸 Español</span>
+      <span class="lang-tag">🇵🇹 Português</span>
+      <span class="lang-tag">🇷🇺 Русский</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>
+    &copy; 2026 PhotoRestore Pro &nbsp;·&nbsp;
+    <a href="privacy_es.html">Política de Privacidad</a> &nbsp;·&nbsp;
+    <a href="ThirdPartyNotices.html">Avisos de Terceros</a>
+  </p>
+</footer>
+
+</body>
+</html>
