@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>PhotoRestore Pro — Restauración y Mejora de Fotos con IA</title>
+  <title>PhotoRestore Pro — ترميم وتحسين الصور بالذكاء الاصطناعي</title>
   <style>
     :root {
       --brand:        #e05c3a;
@@ -23,7 +23,7 @@
       --shadow-md:    0 4px 16px rgba(0,0,0,.10), 0 2px 6px rgba(0,0,0,.06);
       --shadow-lg:    0 12px 40px rgba(0,0,0,.14), 0 4px 12px rgba(0,0,0,.08);
       --max-w:        960px;
-      --ff-body:      "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      --ff-body:      "Segoe UI", "Tahoma", "Arial", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -37,7 +37,7 @@
     html { scroll-behavior: smooth; }
     body {
       font-family: var(--ff-body); font-size: 16px; line-height: 1.65; color: var(--fg);
-      background: var(--bg); -webkit-font-smoothing: antialiased;
+      background: var(--bg); -webkit-font-smoothing: antialiased; direction: rtl;
     }
     .container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
     section { padding: 80px 0; }
@@ -51,8 +51,8 @@
     header::before, header::after {
       content: ""; position: absolute; border-radius: 50%; filter: blur(80px); opacity: .35; pointer-events: none;
     }
-    header::before { width: 420px; height: 420px; background: radial-gradient(circle, #f5866a, transparent 70%); top: -120px; left: -80px; }
-    header::after { width: 320px; height: 320px; background: radial-gradient(circle, #a585e0, transparent 70%); bottom: -100px; right: -60px; }
+    header::before { width: 420px; height: 420px; background: radial-gradient(circle, #f5866a, transparent 70%); top: -120px; right: -80px; left: auto; }
+    header::after { width: 320px; height: 320px; background: radial-gradient(circle, #a585e0, transparent 70%); bottom: -100px; left: -60px; right: auto; }
     .hero { position: relative; z-index: 1; text-align: center; padding: 100px 24px 80px; }
     .hero-badge {
       display: inline-flex; align-items: center; gap: 6px; background: var(--brand-dim); color: var(--brand);
@@ -107,7 +107,7 @@
     .ai-pill {
       display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
       padding: 2px 8px; border-radius: 999px; background: linear-gradient(135deg, var(--brand), var(--accent));
-      color: #fff; margin-left: 6px; vertical-align: middle; position: relative; top: -1px;
+      color: #fff; margin-right: 6px; margin-left: 0; vertical-align: middle; position: relative; top: -1px;
     }
     .icon-orange { background: #fde8e2; color: #c94f30; }
     .icon-purple { background: #efe8ff; color: #6b44b8; }
@@ -164,10 +164,10 @@
       PhotoRestore Pro
     </div>
 
-    <h1>Restauración de Fotos con IA,<br><span>Totalmente Offline en Windows</span></h1>
+    <h1>ترميم الصور بالذكاء الاصطناعي،<br><span>يعمل بالكامل دون اتصال على Windows</span></h1>
 
     <p class="hero-sub">
-      Un estudio completo de mejora de fotos con IA para Windows. Repare fotos antiguas, escale a 4K, añada color a imágenes en blanco y negro, elimine arañazos y más — todo procesado localmente sin subir datos.
+      استوديو متكامل لتحسين الصور بالذكاء الاصطناعي لنظام Windows. أصلح الصور القديمة، قم بالتكبير إلى 4K، أضف الألوان للصور بالأبيض والأسود، أزل الخدوش والمزيد — كل ذلك يتم معالجته محلياً دون رفع أي بيانات.
     </p>
 
     <div class="hero-meta">
@@ -183,19 +183,19 @@
       <span>·</span>
       <span>
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        100% Offline
+        100% دون اتصال
       </span>
       <span>·</span>
       <span>
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-        7 Idiomas
+        7 لغات
       </span>
     </div>
 
     <div class="download-btn-container">
-      <a href="https://apps.microsoft.com/detail/9n3p5flw85x8?hl=es-ES&gl=ES" class="download-btn" target="_blank" rel="noopener noreferrer">
+      <a href="https://apps.microsoft.com/detail/9n3p5flw85x8?hl=ar-SA&gl=SA" class="download-btn" target="_blank" rel="noopener noreferrer">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"/></svg>
-        Descargar desde Microsoft Store
+        تحميل من Microsoft Store
       </a>
     </div>
   </div>
@@ -204,25 +204,25 @@
 <section class="screenshots-section">
   <div class="container">
     <div class="section-label">
-      <span class="overline">En Acción</span>
-      <h2>Véalo por Sí Mismo</h2>
-      <p>Una interfaz intuitiva y fluida que hace que la restauración de fotos con IA sea sin esfuerzo.</p>
+      <span class="overline">أثناء العمل</span>
+      <h2>شاهد بنفسك</h2>
+      <p>واجهة بديهية وسلسة تجعل ترميم الصور بالذكاء الاصطناعي أمراً سهلاً.</p>
     </div>
 
     <div class="screenshots-grid">
       <div class="screenshot-card">
-        <img src="1.jpg" alt="PhotoRestore Pro — Pantalla de inicio con ocho tarjetas de funciones IA" style="width:100%;display:block;" />
-        <div class="screenshot-caption">Inicio — Ocho Entradas de Funciones de un Vistazo</div>
+        <img src="1.jpg" alt="PhotoRestore Pro — الشاشة الرئيسية" style="width:100%;display:block;" />
+        <div class="screenshot-caption">الرئيسية — ثماني وظائف بنظرة واحدة</div>
       </div>
 
       <div class="screenshot-card">
-        <img src="2.jpg" alt="PhotoRestore Pro — Restauración de fotos antiguas con comparación antes y después" style="width:100%;display:block;" />
-        <div class="screenshot-caption">Restauración de Fotos Antiguas — Comparación Antes &amp; Después</div>
+        <img src="2.jpg" alt="PhotoRestore Pro — ترميم الصور القديمة" style="width:100%;display:block;" />
+        <div class="screenshot-caption">ترميم الصور القديمة — مقارنة قبل وبعد</div>
       </div>
 
       <div class="screenshot-card">
-        <img src="3.jpg" alt="PhotoRestore Pro — Colorización IA transformando una foto en blanco y negro a color" style="width:100%;display:block;" />
-        <div class="screenshot-caption">Colorización IA — Devolviendo la Vida a la Historia</div>
+        <img src="3.jpg" alt="PhotoRestore Pro — التلوين بالذكاء الاصطناعي" style="width:100%;display:block;" />
+        <div class="screenshot-caption">التلوين بالذكاء الاصطناعي — إعادة الحياة للتاريخ</div>
       </div>
     </div>
   </div>
@@ -231,65 +231,59 @@
 <section>
   <div class="container">
     <div class="section-label" style="text-align:center;">
-      <span class="overline">Funciones</span>
+      <span class="overline">الميزات</span>
       <div class="divider"></div>
-      <h2>Ocho Herramientas Poderosas, Una Aplicación</h2>
-      <p>Desde fotos familiares descoloridas hasta tomas de baja resolución, PhotoRestore Pro cubre cada escenario de restauración.</p>
+      <h2>ثماني أدوات قوية، تطبيق واحد</h2>
+      <p>من الصور العائلية الباهتة إلى الصور منخفضة الدقة، يغطي PhotoRestore Pro كل سيناريو ترميم.</p>
     </div>
 
     <div class="features-grid">
       <div class="feature-card">
         <div class="feature-icon icon-amber">🗃️</div>
-        <h3>Restauración de Fotos Antiguas <span class="ai-pill">IA</span></h3>
-        <p>Devuelva la vida a fotos severamente envejecidas o descoloridas. Un pipeline completo de IA — eliminación de ruido, mejora de color y escalado 4× — se aplica en secuencia para la máxima calidad de salida.</p>
+        <h3>ترميم الصور القديمة <span class="ai-pill">AI</span></h3>
+        <p>أعد الصور المتقدمة في العمر أو الباهتة إلى الحياة. يتم تطبيق خط أنابيب AI كامل — إزالة الضوضاء، تحسين الألوان، والتكبير 4× — بالتسلسل للحصول على أعلى جودة ممكنة.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon icon-orange">⚡</div>
-        <h3>Restauración Rápida de Fotos Antiguas</h3>
-        <p>Limpie instantáneamente fotos ligeramente envejecidas usando solo algoritmos tradicionales. Sin tiempo de espera de IA — los resultados aparecen en milisegundos, perfecto para retoques rápidos.</p>
+        <h3>ترميم سريع للصور القديمة</h3>
+        <p>نظف الصور القديمة قليلاً فوراً باستخدام الخوارزميات التقليدية فقط. بدون انتظار AI — تظهر النتائج في أجزاء من الثانية، مثالية للتعديلات السريعة.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon icon-blue">🔍</div>
-        <h3>Escalado de Foto 4× <span class="ai-pill">IA</span></h3>
-        <p>Amplíe cualquier foto a cuatro veces su resolución original usando un modelo Real-ESRGAN. Recupera detalles nítidos de imágenes comprimidas o de baja resolución con una claridad notable.</p>
+        <h3>تكبير الصور 4× <span class="ai-pill">AI</span></h3>
+        <p>كبّر أي صورة إلى أربعة أضعاف دقتها الأصلية باستخدام نموذج Real-ESRGAN. يستعيد التفاصيل الحادة من الصور المضغوطة أو منخفضة الدقة بوضوح ملحوظ.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon icon-purple">🎨</div>
-        <h3>Colorización IA <span class="ai-pill">IA</span></h3>
-        <p>Transforme fotografías en blanco y negro en imágenes a color naturales y vívidas. El modelo de IA analiza el contexto de la escena para producir colores plausibles y realistas sin entrada manual.</p>
+        <h3>التلوين بالذكاء الاصطناعي <span class="ai-pill">AI</span></h3>
+        <p>حوّل الصور بالأبيض والأسود إلى صور ملونة طبيعية ونابضة بالحياة. يحلل نموذج AI سياق المشهد لإنتاج ألوان معقولة وواقعية دون إدخال يدوي.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon icon-green">✨</div>
-        <h3>Mejora de Color</h3>
-        <p>Elija entre ocho presets visuales distintos — desde Natural &amp; Nítido hasta Cinematográfico — para mejorar instantáneamente el contraste, saturación y calidez de cualquier foto a color.</p>
+        <h3>تحسين الألوان</h3>
+        <p>اختر من بين ثمانية إعدادات بصرية مميزة — من الطبيعي والحاد إلى السينمائي — لتعزيز التباين والتشبع والدفء لأي صورة ملونة فوراً.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon icon-teal">🔧</div>
-        <h3>Reparación de Arañazos &amp; Pliegues</h3>
-        <p>Detecte y elimine arañazos físicos y líneas de pliegue de fotos escaneadas usando inpainting morfológico. Restaura la continuidad visual en áreas dañadas sin dejar artefactos.</p>
+        <h3>إصلاح الخدوش والثنيات</h3>
+        <p>اكتشف وأزل الخدوش المادية وخطوط الطي من الصور الممسوحة ضوئياً باستخدام الترميم المورفولوجي. يستعيد الاستمرارية البصرية في المناطق التالفة دون ترك آثار.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon icon-indigo">🎞️</div>
-        <h3>Cuadrícula de Filtros 9 Estilos</h3>
-        <p>Previsualice nueve filtros artísticos lado a lado en una tira de miniaturas desplazable y elija su favorito. Los filtros incluyen Blanco &amp; Negro, Vintage Cálido, Teal Frío, Grano de Película y más.</p>
+        <h3>شبكة 9 فلاتر أنماط</h3>
+        <p>عاين تسعة فلاتر فنية جنباً إلى جنب في شريط صور مصغرة قابل للتمرير واختر المفضل لديك. تشمل الفلاتر: أبيض وأسود، دافئ عتيق، تيل بارد، حبيبات الفيلم والمزيد.</p>
       </div>
 
       <div class="feature-card">
         <div class="feature-icon icon-rose">📐</div>
-        <h3>Redimensionar &amp; Recortar</h3>
-        <p>Redimensione fotos a dimensiones precisas y recorte en forma libre o según proporciones predefinidas. Perfecto para preparar imágenes para perfiles sociales, impresión o documentos.</p>
-      </div>
-
-      <div class="feature-card">
-        <div class="feature-icon icon-amber">💧</div>
-        <h3>Marca de Agua por Lote <span class="ai-pill">IA</span></h3>
-        <p>Aplique marcas de agua de texto o imagen a hasta 50 fotos a la vez. Configure posición, opacidad, tamaño y rotación, luego exporte todo el lote en una sola operación.</p>
+        <h3>تغيير الحجم والقص</h3>
+        <p>غيّر حجم الصور إلى أبعاد دقيقة واقصص بحرية أو بنسب محددة مسبقاً. مثالي لإعداد الصور لملفات الوسائط الاجتماعية أو الطباعة أو المستندات.</p>
       </div>
     </div>
   </div>
@@ -298,32 +292,32 @@
 <section class="privacy-section">
   <div class="container">
     <div class="section-label" style="text-align:center;">
-      <span class="overline">Privacidad Primero</span>
+      <span class="overline">الخصوصية أولاً</span>
       <div class="divider"></div>
-      <h2>Sus Fotos Nunca Salen de Su Dispositivo</h2>
-      <p>Toda la inferencia de IA y procesamiento de imágenes se ejecuta completamente en su máquina local. No se requiere cuenta. No se necesita conexión a Internet.</p>
+      <h2>صورك لا تغادر جهازك أبداً</h2>
+      <p>جميع استدلالات AI ومعالجة الصور تعمل بالكامل على جهازك المحلي. لا حاجة لحساب. لا حاجة لاتصال بالإنترنت.</p>
     </div>
 
     <div class="privacy-grid">
       <div class="privacy-card">
         <div class="privacy-icon">🔒</div>
-        <h4>100% Offline</h4>
-        <p>Cada modelo y algoritmo se ejecuta localmente. La aplicación funciona sin conexión a Internet después de la instalación.</p>
+        <h4>100% دون اتصال</h4>
+        <p>كل نموذج وخوارزمية تعمل محلياً. يعمل التطبيق بدون اتصال بالإنترنت بعد التثبيت.</p>
       </div>
       <div class="privacy-card">
         <div class="privacy-icon">🚫</div>
-        <h4>Cero Subida de Datos</h4>
-        <p>Sus imágenes se procesan en memoria en su propia máquina y nunca se transmiten a ningún servidor.</p>
+        <h4>صفر رفع للبيانات</h4>
+        <p>تتم معالجة صورك في الذاكرة على جهازك ولا يتم إرسالها أبداً إلى أي خادم.</p>
       </div>
       <div class="privacy-card">
         <div class="privacy-icon">👤</div>
-        <h4>Sin Cuenta Necesaria</h4>
-        <p>Sin registro, sin inicio de sesión, sin suscripción. Descargue desde Microsoft Store y comience a usarlo inmediatamente.</p>
+        <h4>لا حاجة لحساب</h4>
+        <p>بدون تسجيل، بدون تسجيل دخول، بدون اشتراك. حمّل من Microsoft Store وابدأ الاستخدام فوراً.</p>
       </div>
       <div class="privacy-card">
         <div class="privacy-icon">⚡</div>
-        <h4>Aceleración GPU</h4>
-        <p>Los modelos de IA se ejecutan a través de ONNX Runtime con aceleración DirectML. Retrocede automáticamente a CPU en hardware no soportado.</p>
+        <h4>تسريع GPU</h4>
+        <p>تعمل نماذج AI عبر ONNX Runtime مع تسريع DirectML. يعود تلقائياً إلى CPU على الأجهزة غير المدعومة.</p>
       </div>
     </div>
   </div>
@@ -331,10 +325,10 @@
 
 <section>
   <div class="container" style="text-align:center;">
-    <span class="overline">Multilingüe</span>
+    <span class="overline">متعدد اللغات</span>
     <div class="divider"></div>
-    <h2 style="font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:800;letter-spacing:-.025em;margin-bottom:12px;">Disponible en Su Idioma</h2>
-    <p style="color:var(--fg-muted);max-width:480px;margin:0 auto;">PhotoRestore Pro viene con localización completa de la interfaz para siete idiomas, cambiable en cualquier momento desde Configuración.</p>
+    <h2 style="font-size:clamp(1.6rem,3.5vw,2.2rem);font-weight:800;letter-spacing:-.025em;margin-bottom:12px;">متوفر بلغتك</h2>
+    <p style="color:var(--fg-muted);max-width:480px;margin:0 auto;">يأتي PhotoRestore Pro مع توطين كامل لواجهة المستخدم لسبع لغات، قابل للتبديل في أي وقت من الإعدادات.</p>
     <div class="lang-list">
       <span class="lang-tag">🇺🇸 English</span>
       <span class="lang-tag">🇯🇵 日本語</span>
@@ -350,8 +344,8 @@
 <footer>
   <p>
     &copy; 2026 PhotoRestore Pro &nbsp;·&nbsp;
-    <a href="privacy_es.html">Política de Privacidad</a> &nbsp;·&nbsp;
-    <a href="ThirdPartyNotices.html">Avisos de Terceros</a>
+    <a href="privacy_ar.html">سياسة الخصوصية</a> &nbsp;·&nbsp;
+    <a href="ThirdPartyNotices.html">إشعارات الأطراف الثالثة</a>
   </p>
 </footer>
 
