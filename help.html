@@ -1,0 +1,1745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PhotoRestore Pro Help &amp; User Guide — How to Restore, Upscale &amp; Enhance Photos Offline</title>
+  <meta name="description" content="Complete step-by-step guide for PhotoRestore Pro — the 100% offline AI photo restoration studio for Windows. Learn how to restore old photos, upscale to 4K, colorize black-and-white images, remove scratches, batch watermark, and master all 11 tools. No cloud, no upload, your photos never leave your device." />
+  <meta name="keywords" content="PhotoRestore Pro help, photo restoration guide, AI photo enhancer tutorial, old photo repair how-to, image upscaler guide, colorize black and white, offline photo editor help, scratch removal tutorial, Windows photo restoration" />
+  <meta property="article:modified_time" content="2026-06-25T12:00:00+00:00" />
+  <link rel="canonical" href="https://hummingbirdlabs.github.io/help.html" />
+
+  <!-- hreflang — Multi-language declaration -->
+  <link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html" />
+  <link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html" />
+  <link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html" />
+  <link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html" />
+  <link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html" />
+  <link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html" />
+  <link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html" />
+  <link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="PhotoRestore Pro Help — Complete User Guide for AI Photo Restoration" />
+  <meta property="og:description" content="Step-by-step guide covering all 11 tools in PhotoRestore Pro. Restore old photos, upscale to 4K, colorize B&W, remove scratches — all offline on Windows." />
+  <meta property="og:image" content="https://hummingbirdlabs.github.io/og-help.jpg" />
+  <meta property="og:url" content="https://hummingbirdlabs.github.io/help.html" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PhotoRestore Pro Help — Complete User Guide" />
+  <meta name="twitter:description" content="Master all 11 AI-powered photo restoration and enhancement tools on Windows. 100% offline, step-by-step instructions." />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "PhotoRestore Pro User Guide",
+    "description": "Complete step-by-step guide for restoring, upscaling, and enhancing photos with PhotoRestore Pro on Windows.",
+    "about": {
+      "@type": "SoftwareApplication",
+      "name": "PhotoRestore Pro",
+      "operatingSystem": "Windows 10, Windows 11",
+      "applicationCategory": "MultimediaApplication",
+      "description": "100% offline AI photo restoration and enhancement studio for Windows.",
+      "offers": {
+        "@type": "Offer",
+        "description": "Free trial available via Microsoft Store"
+      }
+    },
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Download from Microsoft Store",
+        "text": "Get PhotoRestore Pro from the Microsoft Store — no account required."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Import Your Photo",
+        "text": "Click the Import button and select any PNG, JPEG, WebP, BMP, or TIFF image."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Process & Save",
+        "text": "Click Start Processing, review the before-and-after comparison, then click Save to export."
+      }
+    ]
+  }
+  </script>
+
+  <!-- BreadcrumbList Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://hummingbirdlabs.github.io/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Help &amp; User Guide",
+        "item": "https://hummingbirdlabs.github.io/help.html"
+      }
+    ]
+  }
+  </script>
+
+  <!-- FAQPage Schema — enables rich results in Google Search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need an internet connection to use PhotoRestore Pro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. All AI models and processing run entirely offline on your device. After installation, you never need an internet connection. Your photos never leave your computer — complete privacy, no cloud dependency."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What image formats are supported?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Import: PNG, JPEG, WebP, BMP, TIFF. Export: PNG (default, lossless), JPEG (adjustable quality), WebP (adjustable quality), BMP, TIFF."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is AI processing slower on my computer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "AI models use your GPU for acceleration via ONNX Runtime with DirectML. If your GPU doesn't support DirectML or has limited VRAM, the app automatically switches to CPU processing — slower but works on any Windows PC. A DirectML-compatible GPU is recommended for 3–8× faster processing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I process multiple photos at once?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Batch processing is available for Batch Watermark (up to 50 photos) and Batch Image Resize (up to 50 photos). All other features process one photo at a time for maximum quality. You can chain features — process in one tool, return home, and open another — your progress is preserved."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will my original photo be overwritten?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Never. PhotoRestore Pro always saves results as new files. Your original images are never modified."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use PhotoRestore Pro for commercial work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Photos processed with PhotoRestore Pro can be used for commercial purposes — client work, prints, publishing, and social media. There are no usage restrictions or watermarks on exported images."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my data collected or shared?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No data collection of any kind. PhotoRestore Pro does not include analytics, telemetry, crash reporting, or any network communication. Every pixel of every image is processed exclusively in your computer's memory."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What's the difference between Fast and AI Old Photo Restoration?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fast Restoration uses traditional image processing algorithms — results appear in milliseconds, ideal for lightly faded photos. AI Restoration runs a full deep-learning pipeline (15–60 seconds) designed for severely aged or damaged photos. Choose based on your photo's condition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does PhotoRestore Pro work on Windows on ARM (Snapdragon)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PhotoRestore Pro is compiled for x64 architecture and runs on Windows 10/11 x64 editions. ARM-based Windows devices (e.g., Snapdragon X Elite) can run the app via x64 emulation, though AI processing speed may vary."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get a refund if I'm not satisfied?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "All purchases are processed through the Microsoft Store, which provides a standard refund policy. You can request a refund directly from your Microsoft account's order history. We recommend trying the free trial first."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- ItemList Schema — helps Google understand this as a multi-tool guide -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "PhotoRestore Pro Tools & Features",
+    "numberOfItems": 11,
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Old Photo Restoration (AI)", "url": "https://hummingbirdlabs.github.io/help.html#old-photo-ai"},
+      {"@type": "ListItem", "position": 2, "name": "Fast Old Photo Restoration", "url": "https://hummingbirdlabs.github.io/help.html#fast-photo"},
+      {"@type": "ListItem", "position": 3, "name": "Classic Photo Restoration", "url": "https://hummingbirdlabs.github.io/help.html#classic-photo"},
+      {"@type": "ListItem", "position": 4, "name": "Photo Upscale 4× (AI)", "url": "https://hummingbirdlabs.github.io/help.html#upscale"},
+      {"@type": "ListItem", "position": 5, "name": "AI Colorization", "url": "https://hummingbirdlabs.github.io/help.html#colorization"},
+      {"@type": "ListItem", "position": 6, "name": "Color Enhancement", "url": "https://hummingbirdlabs.github.io/help.html#color-enhance"},
+      {"@type": "ListItem", "position": 7, "name": "Scratch & Crease Repair", "url": "https://hummingbirdlabs.github.io/help.html#scratch"},
+      {"@type": "ListItem", "position": 8, "name": "9-Style Filter Grid", "url": "https://hummingbirdlabs.github.io/help.html#filter-grid"},
+      {"@type": "ListItem", "position": 9, "name": "Crop & Convert", "url": "https://hummingbirdlabs.github.io/help.html#crop"},
+      {"@type": "ListItem", "position": 10, "name": "Batch Watermark", "url": "https://hummingbirdlabs.github.io/help.html#watermark"},
+      {"@type": "ListItem", "position": 11, "name": "Batch Image Resize", "url": "https://hummingbirdlabs.github.io/help.html#batch-resize"}
+    ]
+  }
+  </script>
+
+  <style>
+    /* ═══════════════════════════════════════════════════════════
+       DESIGN TOKENS — Bright, Lively, Natural Palette
+       No dark mode — always cheerful and approachable
+       ═══════════════════════════════════════════════════════════ */
+    :root {
+      --brand-orange:    #FF6B35;
+      --brand-green:     #00A86B;
+      --brand-sky:       #4A90D9;
+      --brand-coral:     #FF7F7F;
+      --brand-gold:      #F5A623;
+      --brand-purple:    #9B59B6;
+
+      --bg:              #FFFAF5;
+      --surface:         #FFFFFF;
+      --surface-alt:     #FFF8F0;
+      --border:          #F0E6DA;
+      --border-light:    #F7F1E8;
+
+      --fg:              #2D2D2D;
+      --fg-heading:      #1A1A1A;
+      --fg-muted:        #6B6B6B;
+      --fg-subtle:       #999999;
+
+      --ff-heading:      "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+      --ff-body:         "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+      --radius-sm:       8px;
+      --radius-md:       14px;
+      --radius-lg:       22px;
+      --radius-xl:       32px;
+
+      --shadow-sm:       0 2px 8px rgba(255, 107, 53, 0.08);
+      --shadow-md:       0 8px 24px rgba(0, 0, 0, 0.06), 0 2px 8px rgba(0, 0, 0, 0.04);
+      --shadow-lg:       0 16px 40px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.04);
+      --shadow-glow:     0 0 32px rgba(255, 107, 53, 0.15);
+
+      --max-w:           1020px;
+      --toc-w:           260px;
+    }
+
+    /* ── Reset ──────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+
+    body {
+      font-family: var(--ff-body);
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--fg);
+      background: var(--bg);
+      -webkit-font-smoothing: antialiased;
+      position: relative;
+    }
+
+    /* decorative background blobs */
+    body::before {
+      content: "";
+      position: fixed;
+      top: -200px;
+      right: -150px;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(255, 107, 53, 0.06) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 0;
+    }
+    body::after {
+      content: "";
+      position: fixed;
+      bottom: -180px;
+      left: -120px;
+      width: 440px;
+      height: 440px;
+      background: radial-gradient(circle, rgba(0, 168, 107, 0.05) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── Typography ─────────────────────────────────────────── */
+    h1, h2, h3, h4 { font-family: var(--ff-heading); color: var(--fg-heading); }
+
+    h1 {
+      font-size: clamp(2rem, 4.5vw, 3rem);
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      line-height: 1.2;
+    }
+
+    h1 span {
+      background: linear-gradient(135deg, var(--brand-orange) 0%, var(--brand-coral) 50%, var(--brand-purple) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    h2 {
+      font-size: clamp(1.4rem, 3vw, 1.85rem);
+      font-weight: 750;
+      letter-spacing: -0.015em;
+      line-height: 1.3;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2 .section-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 18px;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--fg-heading);
+    }
+
+    h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    p { margin-bottom: 16px; }
+    p:last-child { margin-bottom: 0; }
+
+    a {
+      color: var(--brand-orange);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+    a:hover { color: #E55A2B; text-decoration: underline; }
+
+    /* ── Layout ──────────────────────────────────────────────── */
+    .page-wrapper {
+      display: flex;
+      max-width: var(--max-w);
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .content-area {
+      flex: 1;
+      min-width: 0;
+      padding: 0 32px 80px;
+    }
+
+    /* ── Header ──────────────────────────────────────────────── */
+    .site-header {
+      background: linear-gradient(160deg, #FFF5EE 0%, #FFF8F0 40%, #F0F8FF 100%);
+      border-bottom: 2px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+      background: linear-gradient(160deg, rgba(255, 245, 238, 0.95) 0%, rgba(255, 248, 240, 0.95) 40%, rgba(240, 248, 255, 0.95) 100%);
+    }
+
+    .header-inner {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 32px;
+    }
+
+    .header-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 750;
+      font-size: 17px;
+      color: var(--fg-heading);
+    }
+
+    .header-brand .brand-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--brand-orange), var(--brand-coral));
+      box-shadow: 0 0 10px rgba(255, 107, 53, 0.4);
+    }
+
+    .header-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 8px 20px;
+      font-size: 13.5px;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--brand-orange) 0%, #FF8C5A 100%);
+      color: #fff;
+      border-radius: 999px;
+      text-decoration: none;
+      transition: all 0.25s;
+      box-shadow: 0 4px 14px rgba(255, 107, 53, 0.25);
+      white-space: nowrap;
+    }
+    .header-cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 22px rgba(255, 107, 53, 0.35);
+      text-decoration: none;
+      color: #fff;
+    }
+
+    /* ── Hero ────────────────────────────────────────────────── */
+    .hero {
+      text-align: center;
+      padding: 60px 0 48px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: linear-gradient(135deg, rgba(255, 107, 53, 0.1), rgba(155, 89, 182, 0.08));
+      border: 1px solid rgba(255, 107, 53, 0.2);
+      color: var(--brand-orange);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 999px;
+      margin-bottom: 24px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: var(--fg-muted);
+      max-width: 620px;
+      margin: 0 auto 24px;
+    }
+
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .hero-stat {
+      text-align: center;
+      padding: 16px 20px;
+      background: var(--surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .hero-stat-number {
+      display: block;
+      font-size: 1.8rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--brand-orange), var(--brand-coral));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-stat-label {
+      display: block;
+      font-size: 13px;
+      color: var(--fg-muted);
+      margin-top: 2px;
+    }
+
+    /* ── Hero Download Button ──────────────────────────── */
+    .hero-download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 32px;
+      font-size: 15.5px;
+      font-weight: 750;
+      background: linear-gradient(135deg, var(--brand-orange) 0%, #FF8C5A 100%);
+      color: #fff;
+      border-radius: 999px;
+      text-decoration: none;
+      box-shadow: 0 6px 24px rgba(255, 107, 53, 0.3);
+      transition: all 0.25s;
+    }
+
+    .hero-download-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 32px rgba(255, 107, 53, 0.4);
+      text-decoration: none;
+      color: #fff;
+    }
+
+    /* ── Table of Contents (Sidebar) ─────────────────────────── */
+    .toc-sidebar {
+      width: var(--toc-w);
+      flex-shrink: 0;
+      position: sticky;
+      top: 70px;
+      align-self: flex-start;
+      max-height: calc(100vh - 90px);
+      overflow-y: auto;
+      padding: 32px 0 32px 32px;
+      border-right: 1px solid var(--border-light);
+    }
+
+    .toc-title {
+      font-size: 13px;
+      font-weight: 750;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--fg-muted);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .toc-list { list-style: none; }
+    .toc-list ul { list-style: none; padding-left: 14px; margin-top: 4px; }
+
+    .toc-list a {
+      display: block;
+      padding: 5px 0;
+      font-size: 13.5px;
+      font-weight: 500;
+      color: var(--fg-muted);
+      transition: color 0.15s, padding-left 0.15s;
+      border-radius: 4px;
+    }
+
+    .toc-list a:hover {
+      color: var(--brand-orange);
+      padding-left: 4px;
+      text-decoration: none;
+    }
+
+    .toc-list > li > a {
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--fg);
+    }
+
+    .toc-list > li { margin-bottom: 12px; }
+    .toc-list > li:last-child { margin-bottom: 0; }
+
+    .toc-list ul a { font-weight: 400; }
+
+    /* ── Sections ────────────────────────────────────────────── */
+    .section {
+      padding: 52px 0;
+      border-bottom: 1px solid var(--border-light);
+    }
+    .section:last-of-type { border-bottom: none; }
+
+    .section-intro {
+      font-size: 1.05rem;
+      color: var(--fg-muted);
+      max-width: 680px;
+    }
+
+    /* ── TL;DR Summary (GEO) ───────────────────────────────── */
+    .page-summary {
+      background: linear-gradient(135deg, #F0F6FF, #F7FFFD);
+      border: 1px solid rgba(74, 144, 217, 0.15);
+      border-left: 4px solid var(--brand-sky);
+      border-radius: var(--radius-md);
+      padding: 18px 22px;
+      margin: 16px 0 24px;
+      font-size: 14.5px;
+      color: var(--fg-muted);
+      line-height: 1.7;
+      max-width: 720px;
+    }
+
+    .page-summary strong { color: var(--brand-sky); }
+
+    /* ── Tips / Callout Cards ────────────────────────────────── */
+    .callout {
+      background: linear-gradient(135deg, #FFF5EE, #FFFBF7);
+      border: 1px solid rgba(255, 107, 53, 0.15);
+      border-left: 4px solid var(--brand-orange);
+      border-radius: var(--radius-sm);
+      padding: 16px 20px;
+      margin: 20px 0;
+      font-size: 14px;
+      color: var(--fg-muted);
+    }
+
+    .callout strong { color: var(--brand-orange); }
+
+    .callout.green {
+      background: linear-gradient(135deg, #F0FFF4, #F7FFF9);
+      border-color: rgba(0, 168, 107, 0.15);
+      border-left-color: var(--brand-green);
+    }
+
+    .callout.blue {
+      background: linear-gradient(135deg, #F0F6FF, #F7FAFF);
+      border-color: rgba(74, 144, 217, 0.15);
+      border-left-color: var(--brand-sky);
+    }
+
+    .callout.purple {
+      background: linear-gradient(135deg, #F8F0FF, #FCF7FF);
+      border-color: rgba(155, 89, 182, 0.15);
+      border-left-color: var(--brand-purple);
+    }
+
+    /* ── Step List ───────────────────────────────────────────── */
+    .steps {
+      list-style: none;
+      counter-reset: step;
+      margin: 24px 0;
+    }
+
+    .steps li {
+      counter-increment: step;
+      position: relative;
+      padding: 14px 0 14px 48px;
+      margin-bottom: 4px;
+    }
+
+    .steps li::before {
+      content: counter(step);
+      position: absolute;
+      left: 0;
+      top: 12px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--brand-orange), var(--brand-coral));
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 3px 10px rgba(255, 107, 53, 0.2);
+    }
+
+    /* ── Feature Cards Grid ──────────────────────────────────── */
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 28px 0;
+    }
+
+    .feature-card {
+      background: var(--surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      padding: 22px 20px;
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .feature-card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+
+    .feature-card .card-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    .feature-card h4 {
+      font-size: 14.5px;
+      margin-bottom: 4px;
+    }
+
+    .feature-card p {
+      font-size: 13px;
+      color: var(--fg-muted);
+      line-height: 1.55;
+    }
+
+    .ai-badge {
+      display: inline-block;
+      font-size: 9.5px;
+      font-weight: 800;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 2px 7px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--brand-orange), var(--brand-coral));
+      color: #fff;
+      margin-left: 5px;
+      vertical-align: middle;
+      position: relative;
+      top: -1px;
+    }
+
+    /* icon bg colors */
+    .bg-orange   { background: #FFF0E8; color: #FF6B35; }
+    .bg-green    { background: #E8FFF4; color: #00A86B; }
+    .bg-blue     { background: #E8F2FF; color: #4A90D9; }
+    .bg-purple   { background: #F3E8FF; color: #9B59B6; }
+    .bg-coral    { background: #FFECEC; color: #FF7F7F; }
+    .bg-gold     { background: #FFF8E8; color: #F5A623; }
+    .bg-teal     { background: #E8FFFA; color: #17B890; }
+    .bg-pink     { background: #FFE8F5; color: #E0559A; }
+
+    /* ── FAQ ─────────────────────────────────────────────────── */
+    details.faq-item {
+      background: var(--surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-md);
+      margin-bottom: 12px;
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+    }
+
+    details.faq-item summary {
+      padding: 18px 20px;
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      user-select: none;
+    }
+
+    details.faq-item summary::-webkit-details-marker { display: none; }
+
+    details.faq-item summary::after {
+      content: "+";
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--brand-orange);
+      transition: transform 0.25s;
+      flex-shrink: 0;
+      margin-left: 12px;
+    }
+
+    details.faq-item[open] summary::after {
+      content: "−";
+    }
+
+    details.faq-item .faq-body {
+      padding: 0 20px 18px;
+      font-size: 14.5px;
+      color: var(--fg-muted);
+      line-height: 1.65;
+    }
+
+    /* ── System Requirements Table ───────────────────────────── */
+    .req-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-light);
+    }
+
+    .req-table thead th {
+      background: linear-gradient(135deg, var(--brand-orange), var(--brand-coral));
+      color: #fff;
+      padding: 14px 18px;
+      font-size: 14px;
+      font-weight: 750;
+      text-align: left;
+    }
+
+    .req-table tbody td {
+      padding: 12px 18px;
+      font-size: 14px;
+      border-bottom: 1px solid var(--border-light);
+      color: var(--fg-muted);
+    }
+
+    .req-table tbody tr:last-child td { border-bottom: none; }
+    .req-table tbody tr:nth-child(even) { background: var(--surface-alt); }
+    .req-table tbody tr:nth-child(odd) { background: var(--surface); }
+
+    .req-table tbody td:first-child {
+      font-weight: 700;
+      color: var(--fg-heading);
+    }
+
+    /* ── Social Proof Banner ──────────────────────────────────── */
+    .proof-banner {
+      background: linear-gradient(135deg, #FFF5EE, #F0F8FF);
+      border: 2px solid rgba(255, 107, 53, 0.12);
+      border-radius: var(--radius-lg);
+      padding: 28px 32px;
+      text-align: center;
+      margin: 32px 0;
+    }
+
+    .proof-banner .proof-stat {
+      font-size: 2.4rem;
+      font-weight: 850;
+      background: linear-gradient(135deg, var(--brand-orange) 0%, var(--brand-green) 50%, var(--brand-sky) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1.2;
+    }
+
+    .proof-banner .proof-text {
+      font-size: 1.05rem;
+      color: var(--fg-muted);
+      margin-top: 8px;
+    }
+
+    .proof-banner .proof-sub {
+      font-size: 13px;
+      color: var(--fg-subtle);
+      margin-top: 6px;
+    }
+
+    /* ── Contact / Email ─────────────────────────────────────── */
+    .contact-card {
+      background: var(--surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+      margin: 28px 0;
+    }
+
+    .contact-card .email-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--brand-orange);
+      margin-top: 8px;
+    }
+
+    /* ── Footer ──────────────────────────────────────────────── */
+    .site-footer {
+      border-top: 2px solid var(--border);
+      padding: 32px;
+      text-align: center;
+      font-size: 13.5px;
+      color: var(--fg-muted);
+      position: relative;
+      z-index: 1;
+    }
+
+    .site-footer a {
+      color: var(--brand-orange);
+      font-weight: 600;
+    }
+
+    /* ── How It Works ────────────────────────────────────────── */
+    .how-it-works {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin: 28px 0;
+    }
+
+    .how-step {
+      text-align: center;
+      background: var(--surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      padding: 28px 20px;
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .how-step:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-3px);
+    }
+
+    .how-step .step-num {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      margin: 0 auto 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    kbd {
+      display: inline-block;
+      padding: 2px 7px;
+      font-size: 12px;
+      font-weight: 700;
+      font-family: inherit;
+      color: var(--fg-heading);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      box-shadow: 0 1px 0 var(--border);
+      margin: 0 2px;
+    }
+
+    /* ── Scrollbar ───────────────────────────────────────────── */
+    .toc-sidebar::-webkit-scrollbar { width: 4px; }
+    .toc-sidebar::-webkit-scrollbar-track { background: transparent; }
+    .toc-sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 999px; }
+
+    /* ── Mobile TOC ──────────────────────────────────────────── */
+    .mobile-toc-toggle {
+      display: none;
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--brand-orange), var(--brand-coral));
+      color: #fff;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      z-index: 200;
+      box-shadow: var(--shadow-lg);
+    }
+
+    /* ── Responsive ──────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .toc-sidebar {
+        display: none;
+        position: fixed;
+        top: 56px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        max-height: none;
+        background: var(--bg);
+        z-index: 150;
+        padding: 24px;
+        border-right: none;
+        overflow-y: auto;
+      }
+      .toc-sidebar.open { display: block; }
+
+      .mobile-toc-toggle { display: flex; align-items: center; justify-content: center; }
+
+      .content-area { padding: 0 20px 60px; }
+      .header-inner { padding: 10px 20px; }
+      .hero { padding: 40px 0 32px; }
+      .section { padding: 36px 0; }
+      .how-it-works { grid-template-columns: 1fr; }
+      .hero-stats { gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       HEADER
+       ═══════════════════════════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <span class="brand-dot"></span>
+        PhotoRestore Pro
+      </div>
+      <a href="https://apps.microsoft.com/store/detail/PhotoRestore-Pro/9NBLGGH4R315" class="header-cta" target="_blank" rel="noopener noreferrer">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"/></svg>
+        Download Free Trial
+      </a>
+    </div>
+  </header>
+
+  <div class="page-wrapper">
+
+    <!-- ═══════════════════════════════════════════════════════
+         TABLE OF CONTENTS — Sidebar
+         ═══════════════════════════════════════════════════════ -->
+    <nav class="toc-sidebar" id="toc">
+      <div class="toc-title">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        On This Page
+      </div>
+      <ul class="toc-list">
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#quick-start">Quick Start</a></li>
+        <li>
+          <a href="#photo-restoration">Photo Restoration</a>
+          <ul>
+            <li><a href="#old-photo-ai">Old Photo Restoration (AI)</a></li>
+            <li><a href="#fast-photo">Fast Old Photo Restoration</a></li>
+            <li><a href="#classic-photo">Classic Photo Restoration</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#ai-enhancement">AI Enhancement</a>
+          <ul>
+            <li><a href="#upscale">Photo Upscale 4× (AI)</a></li>
+            <li><a href="#colorization">AI Colorization</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#smart-tools">Smart Tools</a>
+          <ul>
+            <li><a href="#color-enhance">Color Enhancement</a></li>
+            <li><a href="#scratch">Scratch &amp; Crease Repair</a></li>
+            <li><a href="#filter-grid">9-Style Filter Grid</a></li>
+            <li><a href="#crop">Crop &amp; Convert</a></li>
+            <li><a href="#watermark">Batch Watermark</a></li>
+            <li><a href="#batch-resize">Batch Image Resize</a></li>
+          </ul>
+        </li>
+        <li><a href="#settings">Settings &amp; Preferences</a></li>
+        <li><a href="#faq">Frequently Asked Questions</a></li>
+        <li><a href="#tips">Tips for Best Results</a></li>
+        <li><a href="#troubleshooting">Troubleshooting</a></li>
+        <li><a href="#shortcuts">Keyboard Shortcuts</a></li>
+        <li><a href="#requirements">System Requirements</a></li>
+        <li><a href="#privacy">Privacy &amp; Security</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════════════════
+         MAIN CONTENT
+         ═══════════════════════════════════════════════════════ -->
+    <main class="content-area">
+
+      <!-- ── Hero ────────────────────────────────────────── -->
+      <div class="hero">
+        <div class="hero-badge">📖 User Guide</div>
+        <h1>Your Complete Guide to<br><span>PhotoRestore Pro</span></h1>
+        <p>Master every tool — from AI photo restoration to batch watermarking — with clear, step-by-step instructions. No technical jargon, no guesswork.</p>
+        <p style="font-size:13px;color:var(--fg-subtle);margin-top:-8px;">Last updated: June 25, 2026</p>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-number">11</span>
+            <span class="hero-stat-label">Powerful Tools</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-number">7</span>
+            <span class="hero-stat-label">Languages</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-number">100%</span>
+            <span class="hero-stat-label">Offline &amp; Private</span>
+          </div>
+        </div>
+
+        <!-- Download CTA -->
+        <div style="margin-top:28px;">
+          <a href="https://apps.microsoft.com/store/detail/PhotoRestore-Pro/9NBLGGH4R315" class="hero-download-btn" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"/></svg>
+            Download from Microsoft Store — Free Trial
+          </a>
+          <p style="font-size:12.5px;color:var(--fg-subtle);margin-top:8px;">No credit card &middot; No account &middot; 100% Offline</p>
+        </div>
+      </div>
+
+      <!-- ── TL;DR Summary (GEO-optimized for AI crawlers) ── -->
+      <div class="page-summary">
+        <strong>In this guide:</strong> Learn to restore old photos with AI (15–60s), upscale images to 4K, colorize black-and-white photographs, repair scratches &amp; creases, batch-watermark up to 50 images, and master all 11 tools — <strong>100% offline on Windows 10/11</strong>. No account, no upload, your photos never leave your device.
+      </div>
+
+      <!-- ── Social Proof ─────────────────────────────────── -->
+      <div class="proof-banner">
+        <div class="proof-stat">Trusted by Families &amp; Professionals Worldwide</div>
+        <div class="proof-text">From restoring century-old family portraits to batch-processing product catalogs, PhotoRestore Pro is the offline AI restoration studio that keeps your photos private and your workflow simple.</div>
+        <div class="proof-sub"><a href="https://apps.microsoft.com/store/detail/PhotoRestore-Pro/9NBLGGH4R315" target="_blank" rel="noopener noreferrer" style="font-weight:700;">Free trial available on the Microsoft Store</a>. No credit card required.</div>
+      </div>
+
+      <!-- ══════════════════════════════════════════════════
+           HOW IT WORKS
+           ══════════════════════════════════════════════════ -->
+      <section class="section" id="how-it-works">
+        <h2>
+          <span class="section-icon" style="background:#FFF0E8;color:#FF6B35;">⚡</span>
+          How It Works
+        </h2>
+        <p class="section-intro">Three simple steps. That's all it takes to transform your photos — no technical skills, no complicated settings, no cloud uploads.</p>
+
+        <div class="how-it-works">
+          <div class="how-step">
+            <div class="step-num" style="background:linear-gradient(135deg,#FF6B35,#FF8C5A);">1</div>
+            <h4>Choose a Tool</h4>
+            <p style="font-size:13.5px;color:var(--fg-muted);">Pick from 11 features on the home screen — each card tells you exactly what it does.</p>
+          </div>
+          <div class="how-step">
+            <div class="step-num" style="background:linear-gradient(135deg,#00A86B,#17B890);">2</div>
+            <h4>Import &amp; Process</h4>
+            <p style="font-size:13.5px;color:var(--fg-muted);">Load any photo, click Start, and let the AI engine do the heavy lifting — all on your device.</p>
+          </div>
+          <div class="how-step">
+            <div class="step-num" style="background:linear-gradient(135deg,#4A90D9,#6DB3F2);">3</div>
+            <h4>Save &amp; Share</h4>
+            <p style="font-size:13.5px;color:var(--fg-muted);">Review the before-and-after comparison, then save your result in high quality.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           QUICK START
+           ══════════════════════════════════════════════════ -->
+      <section class="section" id="quick-start">
+        <h2>
+          <span class="section-icon" style="background:#E8FFF4;color:#00A86B;">🚀</span>
+          Quick Start
+        </h2>
+        <ol class="steps">
+          <li><strong>Download</strong> PhotoRestore Pro from the Microsoft Store.</li>
+          <li><strong>Launch</strong> the app — no account, no sign-up, no internet required.</li>
+          <li><strong>Choose a feature</strong> from the home screen. Each card describes what it does.</li>
+          <li><strong>Import a photo</strong> by clicking the <strong>Import</strong> button in the toolbar. Supported formats: PNG, JPEG, WebP, BMP, TIFF.</li>
+          <li><strong>Process</strong> your image — click <strong>Start Processing</strong> for AI tools, or <strong>Generate Preview</strong> for non-AI tools.</li>
+          <li><strong>Save</strong> your result by clicking the <strong>Save</strong> button in the top-right corner.</li>
+        </ol>
+
+        <div class="callout green">
+          <strong>Pro Tip:</strong> After processing an image in any feature, you can return to the home screen and open a <strong>different feature</strong> — your original and processed images stay right where you left them. Chain multiple enhancements without re-importing anything.
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           PHOTO RESTORATION
+           ══════════════════════════════════════════════════ -->
+      <section class="section" id="photo-restoration">
+        <h2>
+          <span class="section-icon" style="background:#FFF0E8;color:#FF6B35;">📷</span>
+          Photo Restoration
+        </h2>
+        <p class="section-intro">Three restoration approaches — from millisecond-fast touch-ups to full AI pipelines — so you always have the right tool for your photo's condition.</p>
+
+        <!-- Old Photo Restoration AI -->
+        <div class="feature-card" id="old-photo-ai" style="margin-top:24px;">
+          <div class="card-icon bg-orange">🗃️</div>
+          <h4>Old Photo Restoration <span class="ai-badge">AI</span></h4>
+          <p>Best for severely aged, faded, or discolored family photos that need a complete AI-powered restoration.</p>
+        </div>
+
+        <ol class="steps">
+          <li>On the home screen, click <strong>Old Photo Restoration</strong> (marked with the <span class="ai-badge">AI</span> badge).</li>
+          <li>Click <strong>Import</strong> and select your photo.</li>
+          <li><em>(Optional)</em> Check the <strong>AI Denoise</strong> box if your photo has heavy film grain or digital noise. Leave it off for cleaner photos — it saves processing time.</li>
+          <li>Click <strong>Start Processing</strong>. The AI pipeline automatically runs five stages: smoothing, denoising (if enabled), color enhancement, 4× upscaling, and final sharpening.</li>
+          <li>Review the side-by-side comparison. Click <strong>Save</strong> to export as a high-quality PNG.</li>
+        </ol>
+        <div class="callout">
+          <strong>Time:</strong> 15–60 seconds depending on image size and hardware. GPU acceleration via DirectML significantly speeds up processing.
+        </div>
+
+        <!-- Fast Old Photo Restoration -->
+        <div class="feature-card" id="fast-photo" style="margin-top:28px;">
+          <div class="card-icon bg-green">⚡</div>
+          <h4>Fast Old Photo Restoration</h4>
+          <p>Best for lightly aged or slightly faded photos that just need a quick refresh — no AI wait time, results appear in milliseconds.</p>
+        </div>
+
+        <ol class="steps">
+          <li>On the home screen, click <strong>Fast Old Photo Restoration</strong>.</li>
+          <li>Click <strong>Import</strong> and select your photo.</li>
+          <li>Click <strong>Start</strong> — results appear instantly.</li>
+          <li>Compare the before-and-after panels. Click <strong>Save</strong> to export.</li>
+        </ol>
+        <div class="callout green">
+          <strong>Time:</strong> Under 1 second. Uses traditional image processing algorithms only — no AI overhead.
+        </div>
+
+        <!-- Classic Photo Restoration -->
+        <div class="feature-card" id="classic-photo" style="margin-top:28px;">
+          <div class="card-icon bg-purple">🏛️</div>
+          <h4>Classic Photo Restoration</h4>
+          <p>Best for high-resolution scans from museums, archives, or professional scanners (600+ DPI). Preserves original resolution — no AI upscaling — for archival-grade authenticity.</p>
+        </div>
+
+        <ol class="steps">
+          <li>On the home screen, click <strong>Classic Photo Restoration</strong>.</li>
+          <li>Click <strong>Import</strong> and select your high-resolution scan.</li>
+          <li><em>(Optional)</em> Toggle <strong>Scratch Repair</strong> on if your scan has physical scratches or fold lines.</li>
+          <li>Click <strong>Start</strong>. The pipeline automatically detects halftone patterns, analyzes image quality, and applies targeted corrections — no manual adjustments needed.</li>
+          <li>Click <strong>Save</strong> to export at the original resolution.</li>
+        </ol>
+        <div class="callout purple">
+          <strong>Time:</strong> Under 2 seconds. Fully deterministic traditional algorithms — ideal for archival workflows where predictability matters.
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           AI ENHANCEMENT
+           ══════════════════════════════════════════════════ -->
+      <section class="section" id="ai-enhancement">
+        <h2>
+          <span class="section-icon" style="background:#F3E8FF;color:#9B59B6;">🤖</span>
+          AI Enhancement
+        </h2>
+        <p class="section-intro">Two dedicated AI features that push your photos beyond what traditional editing can achieve — 4× super-resolution upscaling and intelligent black-and-white colorization.</p>
+
+        <!-- Photo Upscale 4x -->
+        <div class="feature-card" id="upscale" style="margin-top:24px;">
+          <div class="card-icon bg-blue">🔍</div>
+          <h4>Photo Upscale 4× <span class="ai-badge">AI</span></h4>
+          <p>Best for low-resolution or compressed images that need more detail — ideal for printing, cropping, or sharing at higher quality.</p>
+        </div>
+
+        <ol class="steps">
+          <li>On the home screen, click <strong>Photo Upscale 4×</strong> (marked with the <span class="ai-badge">AI</span> badge).</li>
+          <li>Click <strong>Import</strong> and select your image.</li>
+          <li>Click <strong>Start Processing</strong>. The AI model enlarges your image to <strong>4× its original dimensions</strong> while recovering sharp, natural-looking details.</li>
+          <li>Compare the before-and-after panels. Click <strong>Save</strong> to export.</li>
+        </ol>
+        <div class="callout blue">
+          <strong>Note:</strong> The input badge shows exact dimensions — e.g., <code>2048 × 1536  →  8192 × 6144</code>. For very large inputs (>3 megapixels), a processing time estimate appears below the badge.
+        </div>
+
+        <!-- AI Colorization -->
+        <div class="feature-card" id="colorization" style="margin-top:28px;">
+          <div class="card-icon bg-purple">🎨</div>
+          <h4>AI Colorization <span class="ai-badge">AI</span></h4>
+          <p>Best for black-and-white or grayscale photographs — watch history come alive in natural, vivid color with zero manual painting.</p>
+        </div>
+
+        <ol class="steps">
+          <li>On the home screen, click <strong>AI Colorization</strong> (marked with the <span class="ai-badge">AI</span> badge).</li>
+          <li>Click <strong>Import</strong> and select your black-and-white photo.</li>
+          <li><em>(Optional)</em> Select a <strong>Subject Type</strong> — Portrait, Landscape, Architecture, or General — to help the AI pick the best colors.</li>
+          <li><em>(Optional)</em> Adjust the <strong>Color Strength</strong> and <strong>Warmth</strong> sliders to fine-tune the result.</li>
+          <li>Click <strong>Start Colorization</strong>. The app first enhances contrast (~50ms), then runs the AI color model. You'll see the enhanced black-and-white preview immediately.</li>
+          <li>Review the before-and-after panels. Click <strong>Save</strong> to export.</li>
+        </ol>
+        <div class="callout purple">
+          <strong>Time:</strong> 4–8 seconds for AI colorization. The instant contrast preview keeps you engaged while the model works.
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           SMART TOOLS
+           ══════════════════════════════════════════════════ -->
+      <section class="section" id="smart-tools">
+        <h2>
+          <span class="section-icon" style="background:#E8FFFA;color:#17B890;">🛠️</span>
+          Smart Tools
+        </h2>
+        <p class="section-intro">Six lightweight, ultra-fast utilities for everyday photo tasks — no AI, no waiting, just instant results.</p>
+
+        <!-- Color Enhancement -->
+        <div class="feature-card" id="color-enhance" style="margin-top:24px;">
+          <div class="card-icon bg-green">✨</div>
+          <h4>Color Enhancement</h4>
+          <p>Best for color photos that look dull or flat — preview 8 visual presets side-by-side and pick your favorite.</p>
+        </div>
+
+        <ol class="steps">
+          <li>Click <strong>Color Enhancement</strong> on the home screen, then <strong>Import</strong> your photo.</li>
+          <li>Click <strong>Generate Preview</strong> — all 8 presets render simultaneously.</li>
+          <li>Browse the thumbnail strip. Click any thumbnail or use <strong>← / → arrow keys</strong> to cycle through: Natural &amp; Crisp, Bright &amp; Lively, Warm Glow, Rich &amp; Vivid, Cool &amp; Crisp, Soft &amp; Dreamy, Vintage Film, Ultra Saturated.</li>
+          <li>Click <strong>Export Selected</strong> to save your favorite at full resolution.</li>
+        </ol>
+
+        <!-- Scratch Repair -->
+        <div class="feature-card" id="scratch" style="margin-top:28px;">
+          <div class="card-icon bg-teal">🔧</div>
+          <h4>Scratch &amp; Crease Repair</h4>
+          <p>Best for scanned photos with visible scratches, tears, or fold lines from physical damage.</p>
+        </div>
+
+        <ol class="steps">
+          <li>Click <strong>Scratch &amp; Crease Repair</strong> on the home screen, then <strong>Import</strong> your scanned photo.</li>
+          <li>Click <strong>Start Repair</strong>. The app detects scratches via morphological analysis, fills damaged areas with intelligent inpainting, and restores contrast across repaired regions.</li>
+          <li>Review and click <strong>Save</strong>. Time: 1–3 seconds.</li>
+        </ol>
+        <div class="callout">
+          <strong>Important:</strong> This tool targets physical damage. For general aging (fading, discoloration), use <strong>Old Photo Restoration</strong> or <strong>Classic Photo Restoration</strong> instead.
+        </div>
+
+        <!-- Filter Grid -->
+        <div class="feature-card" id="filter-grid" style="margin-top:28px;">
+          <div class="card-icon bg-blue">🎞️</div>
+          <h4>9-Style Filter Grid</h4>
+          <p>Best for quickly browsing artistic styles — all 9 filters render in parallel so you can compare them instantly.</p>
+        </div>
+
+        <ol class="steps">
+          <li>Click <strong>9-Style Filter Grid</strong>, then <strong>Import</strong> your photo.</li>
+          <li>Click <strong>Generate Preview</strong> — all 9 filters render simultaneously.</li>
+          <li>Browse thumbnails or use <strong>arrow keys</strong> to switch: Black &amp; White, Vintage Warm, Cool Teal, Film Grain, High Contrast, Soft Glow, Japan Fresh, Matte Fade, Cyberpunk.</li>
+          <li>Click <strong>Export Selected</strong> to save at full resolution.</li>
+        </ol>
+
+        <!-- Crop & Convert -->
+        <div class="feature-card" id="crop" style="margin-top:28px;">
+          <div class="card-icon bg-coral">✂️</div>
+          <h4>Crop &amp; Convert</h4>
+          <p>Best for trimming, resizing, or converting between image formats — a lightweight utility that handles everyday prep work.</p>
+        </div>
+
+        <ol class="steps">
+          <li>Click <strong>Crop &amp; Convert</strong>, then <strong>Import</strong> your photo.</li>
+          <li>Choose a mode: <strong>Drag Select</strong> (freehand), <strong>Specified Size</strong> (exact pixels), or <strong>Scale</strong> (percentage reduce).</li>
+          <li>Select an output format: PNG, JPEG, WebP, BMP, or TIFF. Adjust quality for JPEG/WebP.</li>
+          <li>Click <strong>Apply Preview</strong>, then <strong>Export</strong>.</li>
+        </ol>
+        <div class="callout green">
+          <strong>Note:</strong> Scale mode only reduces size. To enlarge images, use <strong>Photo Upscale 4×</strong>.
+        </div>
+
+        <!-- Batch Watermark -->
+        <div class="feature-card" id="watermark" style="margin-top:28px;">
+          <div class="card-icon bg-gold">💧</div>
+          <h4>Batch Watermark</h4>
+          <p>Best for photographers and content creators — add text or logo watermarks to up to 50 photos at once.</p>
+        </div>
+
+        <ol class="steps">
+          <li>Click <strong>Batch Watermark</strong>, then <strong>Import</strong> up to 50 photos.</li>
+          <li>Choose watermark type: <strong>Text</strong> (enter text, pick font/size/color/opacity) or <strong>Image</strong> (select a PNG logo).</li>
+          <li>Set position — pick a 9-grid spot (Top-Left, Center, Bottom-Right, etc.) and fine-tune with X/Y offset.</li>
+          <li>Review the live preview. Adjust parameters — preview updates automatically.</li>
+          <li>Click <strong>Start Processing</strong>. All photos are watermarked concurrently.</li>
+          <li>Click <strong>Package &amp; Download</strong> to get a ZIP file with everything.</li>
+        </ol>
+
+        <!-- Batch Image Resize -->
+        <div class="feature-card" id="batch-resize" style="margin-top:28px;">
+          <div class="card-icon bg-coral">📐</div>
+          <h4>Batch Image Resize</h4>
+          <p>Best for shrinking a batch of photos for web upload, social media, or email — with format conversion in one pass.</p>
+        </div>
+
+        <ol class="steps">
+          <li>Click <strong>Batch Image Resize</strong>, then <strong>Add Images</strong> — up to 50 photos.</li>
+          <li>Set scale percentage (10%–200%) or pick a preset: 25%, 33%, 50%, or 75%.</li>
+          <li><em>(Optional)</em> Select output format (PNG, JPEG, WebP, BMP, TIFF) and adjust quality for JPEG/WebP.</li>
+          <li>Review the live preview — dimensions update as you change settings.</li>
+          <li>Click <strong>Process All</strong>. Images resize concurrently.</li>
+          <li>Click <strong>Package &amp; Download</strong> for a ZIP file.</li>
+        </ol>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           SETTINGS
+           ══════════════════════════════════════════════════ -->
+      <section class="section" id="settings">
+        <h2>
+          <span class="section-icon" style="background:#FFF8E8;color:#F5A623;">⚙️</span>
+          Settings &amp; Preferences
+        </h2>
+        <p class="section-intro">Access settings by clicking the gear icon in the navigation sidebar.</p>
+
+        <h3 style="margin-top:24px;">🎨 Theme</h3>
+        <p style="font-size:14px;color:var(--fg-muted);">Choose from 6 visual themes: <strong>Pearl Luxury</strong> (warm cream), <strong>Aura</strong> (clean modern light), <strong>Lavender Dream</strong> (soft purple), <strong>Mint Breeze</strong> (fresh green), <strong>Nordic Slate</strong> (cool dark), <strong>Sunrise Glow</strong> (warm gold). Changes apply instantly.</p>
+
+        <h3 style="margin-top:20px;">🌐 Language</h3>
+        <p style="font-size:14px;color:var(--fg-muted);">Switch between 7 languages at any time — English, 日本語, Deutsch, Français, Español, Português, Русский. No restart needed.</p>
+
+        <h3 style="margin-top:20px;">🔑 License</h3>
+        <p style="font-size:14px;color:var(--fg-muted);">Your license status is displayed in Settings. Available as a one-time purchase or subscription through the Microsoft Store. A <strong>free trial</strong> lets you explore all features before buying.</p>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           FAQ
+           ══════════════════════════════════════════════════ -->
+      <section class="section" id="faq">
+        <h2>
+          <span class="section-icon" style="background:#E8F2FF;color:#4A90D9;">❓</span>
+          Frequently Asked Questions
+        </h2>
+
+        <details class="faq-item" id="faq-offline">
+          <summary>Do I need an internet connection to use PhotoRestore Pro?</summary>
+          <div class="faq-body">
+            <p>No. <strong>All AI models and processing run entirely offline</strong> on your device. After installation, you never need an internet connection. This means your photos never leave your computer — complete privacy, no cloud dependency.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What image formats are supported?</summary>
+          <div class="faq-body">
+            <p><strong>Import:</strong> PNG, JPEG, WebP, BMP, TIFF<br><strong>Export:</strong> PNG (default, lossless), JPEG (adjustable quality), WebP (adjustable quality), BMP, TIFF</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Why is AI processing slower on my computer?</summary>
+          <div class="faq-body">
+            <p>AI models use your GPU for acceleration via <strong>ONNX Runtime with DirectML</strong>. If your GPU doesn't support DirectML or has limited VRAM, the app automatically switches to CPU processing — slower but works on any Windows PC. A DirectML-compatible GPU is recommended for the best experience.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I process multiple photos at once?</summary>
+          <div class="faq-body">
+            <p>Batch processing is available for two tools: <strong>Batch Watermark</strong> (up to 50 photos) and <strong>Batch Image Resize</strong> (up to 50 photos). All other features process one photo at a time for maximum quality. You can chain features — process in one tool, return home, and open another — your progress is preserved.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Will my original photo be overwritten?</summary>
+          <div class="faq-body">
+            <p>Never. PhotoRestore Pro <strong>always saves results as new files</strong>. Your original images are never modified.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What does the AI Denoise checkbox do?</summary>
+          <div class="faq-body">
+            <p>In <strong>Old Photo Restoration</strong>, AI Denoise runs a deep learning noise-reduction model before the main restoration pipeline. Enable it for photos with heavy grain or digital noise. Leave it off for cleaner photos — it saves significant processing time.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I cancel a processing operation?</summary>
+          <div class="faq-body">
+            <p>Click the <strong>Cancel</strong> button in the toolbar. The current operation stops and the app returns to its ready state. You can start again immediately.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Is my data collected or shared?</summary>
+          <div class="faq-body">
+            <p><strong>No data collection of any kind.</strong> PhotoRestore Pro does not include analytics, telemetry, crash reporting, or any network communication. Every pixel of every image is processed exclusively in your computer's memory.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Which Windows versions are supported?</summary>
+          <div class="faq-body">
+            <p>Windows 10 (64-bit) and Windows 11 (64-bit). Both are fully supported.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Why do users choose PhotoRestore Pro over cloud-based alternatives?</summary>
+          <div class="faq-body">
+            <p>Because PhotoRestore Pro solves a real, universal problem — restoring precious memories — without the friction of subscriptions, accounts, or cloud uploads. Your photos are processed entirely on your device: zero latency from uploads, complete privacy, and results that rival or exceed cloud-based services. It just works, right out of the box.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>What&apos;s the difference between Fast and AI Old Photo Restoration?</summary>
+          <div class="faq-body">
+            <p><strong>Fast Restoration</strong> uses traditional image processing algorithms — results appear in milliseconds, ideal for lightly faded photos that just need a quick refresh. <strong>AI Restoration</strong> runs a full deep-learning pipeline (smoothing, denoising, color enhancement, 4&times; upscaling, sharpening) for 15–60 seconds, designed for severely aged or damaged photos. Choose based on your photo's condition, not your patience.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Can I use PhotoRestore Pro for commercial work?</summary>
+          <div class="faq-body">
+            <p>Yes. Photos processed with PhotoRestore Pro can be used for commercial purposes — client work, prints, publishing, and social media. There are no usage restrictions or watermarks on exported images. The tool is yours; the results are yours.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How does DirectML acceleration affect processing speed?</summary>
+          <div class="faq-body">
+            <p>DirectML uses your GPU's dedicated AI cores (where available) to accelerate ONNX Runtime inference. On a modern GPU, AI tools run <strong>3&ndash;8&times; faster</strong> than CPU-only mode. The app automatically detects your hardware and selects the fastest backend — no manual configuration needed.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Does the app work on Windows on ARM (Snapdragon)?</summary>
+          <div class="faq-body">
+            <p>PhotoRestore Pro is compiled for x64 architecture and runs on Windows 10/11 x64 editions. ARM-based Windows devices (e.g., Snapdragon X Elite) can run the app via x64 emulation, though AI processing speed may vary. Native ARM64 support is under evaluation for a future release.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How do I get a refund if I&apos;m not satisfied?</summary>
+          <div class="faq-body">
+            <p>All purchases are processed through the Microsoft Store, which provides a standard refund policy. You can request a refund directly from your Microsoft account's order history. We recommend trying the <strong>free trial</strong> first to ensure the app meets your needs before purchasing.</p>
+          </div>
+        </details>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           TIPS
+           ══════════════════════════════════════════════════ -->
+      <section class="section" id="tips">
+        <h2>
+          <span class="section-icon" style="background:#E8FFF4;color:#00A86B;">💡</span>
+          Tips for Best Results
+        </h2>
+
+        <h3 style="margin-top:16px;">General Tips</h3>
+        <ul style="margin-left:20px;color:var(--fg-muted);font-size:14px;line-height:1.8;">
+          <li><strong>Start with the highest quality source available.</strong> Even AI restoration works best with good data.</li>
+          <li><strong>Chain features for complex restorations.</strong> For example: <a href="#scratch">Scratch Repair</a> → <a href="#old-photo-ai">Old Photo Restoration</a> → <a href="#color-enhance">Color Enhancement</a>.</li>
+          <li><strong>Save intermediate results.</strong> Save after each feature so you can backtrack if needed.</li>
+          <li>Lightly faded photos often look great with <a href="#fast-photo">Fast Old Photo Restoration</a> in under a second.</li>
+        </ul>
+
+        <h3 style="margin-top:20px;">For Old Family Photos</h3>
+        <ul style="margin-left:20px;color:var(--fg-muted);font-size:14px;line-height:1.8;">
+          <li><strong>Scan at 300–600 DPI</strong> for best results from physical prints.</li>
+          <li>For photos with both scratches and aging: <strong><a href="#scratch">Scratch Repair</a> first</strong>, then <a href="#old-photo-ai">Old Photo Restoration</a>.</li>
+          <li><strong>Avoid AI Denoise for clean scans</strong> — it adds time with minimal benefit on noise-free photos.</li>
+        </ul>
+
+        <h3 style="margin-top:20px;">For Black-and-White Colorization</h3>
+        <ul style="margin-left:20px;color:var(--fg-muted);font-size:14px;line-height:1.8;">
+          <li>Choose the right <strong>Subject Type</strong> — Portrait for people, Landscape for nature, Architecture for buildings.</li>
+          <li>Start with <strong>default settings</strong>, then fine-tune if needed.</li>
+          <li>Grayscale photos with <strong>good contrast</strong> colorize better — use <a href="#fast-photo">Fast Old Photo Restoration</a> first if the image is flat.</li>
+        </ul>
+
+        <h3 style="margin-top:20px;">For Batch Operations</h3>
+        <ul style="margin-left:20px;color:var(--fg-muted);font-size:14px;line-height:1.8;">
+          <li><strong>Test on 2–3 images first</strong> before processing all 50.</li>
+          <li><strong>Keep backups of originals</strong> in a separate folder as a safety net.</li>
+        </ul>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           TROUBLESHOOTING
+           ══════════════════════════════════════════════════ -->
+      <section class="section" id="troubleshooting">
+        <h2>
+          <span class="section-icon" style="background:#FFECEC;color:#FF7F7F;">🔧</span>
+          Troubleshooting
+        </h2>
+        <p class="section-intro">Quick fixes for common issues — most problems can be resolved in under a minute.</p>
+
+        <h3 style="margin-top:20px;">AI processing is very slow</h3>
+        <ul style="margin-left:20px;color:var(--fg-muted);font-size:14px;line-height:1.8;">
+          <li>Make sure your <strong>GPU drivers are up to date</strong> (NVIDIA Game Ready / AMD Adrenalin / Intel Arc).</li>
+          <li>Check that <strong>DirectML</strong> is available — the app logs the inference backend on startup.</li>
+          <li>Close other GPU-intensive applications (video editors, games, browsers with WebGL).</li>
+          <li>Reduce input image size — processing a 12MP photo on CPU takes longer than a 3MP one.</li>
+        </ul>
+
+        <h3 style="margin-top:20px;">App crashes or won&apos;t start</h3>
+        <ul style="margin-left:20px;color:var(--fg-muted);font-size:14px;line-height:1.8;">
+          <li>Verify your system meets the <strong>minimum requirements</strong> (Windows 10 64-bit, 4 GB RAM).</li>
+          <li>Reinstall from the <strong>Microsoft Store</strong> — this ensures all dependencies are correctly packaged.</li>
+          <li>If using an antivirus, temporarily add PhotoRestore Pro to the exclusion list.</li>
+        </ul>
+
+        <h3 style="margin-top:20px;">Colorization results look unnatural</h3>
+        <ul style="margin-left:20px;color:var(--fg-muted);font-size:14px;line-height:1.8;">
+          <li>Try a different <strong>Subject Type</strong> — Portrait mode handles skin tones better than Landscape.</li>
+          <li>Reduce <strong>Color Strength</strong> for a subtler effect, then increase gradually.</li>
+          <li>Ensure the input photo has <strong>good contrast</strong> — run Fast Old Photo Restoration first if the image is flat or washed out.</li>
+        </ul>
+
+        <h3 style="margin-top:20px;">Scratch Repair missed some scratches</h3>
+        <ul style="margin-left:20px;color:var(--fg-muted);font-size:14px;line-height:1.8;">
+          <li>For deep or wide scratches, run <strong>Scratch Repair twice</strong> — each pass fills remaining gaps.</li>
+          <li>Scan at <strong>300+ DPI</strong> — low-resolution scans make scratch detection harder.</li>
+          <li>Combine with <strong><a href="#old-photo-ai"></a>Old Photo Restoration (AI)</a></strong> after scratch repair for the best final result.</li>
+        </ul>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           KEYBOARD SHORTCUTS
+           ══════════════════════════════════════════════════ -->
+      <section class="section" id="shortcuts">
+        <h2>
+          <span class="section-icon" style="background:#E8F2FF;color:#4A90D9;">⌨️</span>
+          Keyboard Shortcuts
+        </h2>
+        <p class="section-intro">Speed up your workflow with these handy shortcuts — no mouse required.</p>
+
+        <table class="req-table" style="margin-top:20px;">
+          <thead>
+            <tr><th>Action</th><th>Shortcut</th><th>Where It Works</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Import photo</td><td><kbd>Ctrl</kbd> + <kbd>O</kbd></td><td>Any feature page</td></tr>
+            <tr><td>Start / Stop processing</td><td><kbd>Ctrl</kbd> + <kbd>Enter</kbd></td><td>Any feature page</td></tr>
+            <tr><td>Save result</td><td><kbd>Ctrl</kbd> + <kbd>S</kbd></td><td>Any feature page</td></tr>
+            <tr><td>Cycle filter presets</td><td><kbd>&larr;</kbd> / <kbd>&rarr;</kbd> Arrow keys</td><td>Color Enhancement, Filter Grid</td></tr>
+            <tr><td>Toggle before / after preview</td><td><kbd>Ctrl</kbd> + <kbd>B</kbd></td><td>Post-processing view</td></tr>
+            <tr><td>Return to home screen</td><td><kbd>Esc</kbd></td><td>Any feature page</td></tr>
+            <tr><td>Open Settings</td><td><kbd>Ctrl</kbd> + <kbd>,</kbd></td><td>Any screen</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           SYSTEM REQUIREMENTS
+           ══════════════════════════════════════════════════ -->
+      <section class="section" id="requirements">
+        <h2>
+          <span class="section-icon" style="background:#FFF0E8;color:#FF6B35;">💻</span>
+          System Requirements
+        </h2>
+
+        <table class="req-table">
+          <thead>
+            <tr><th>Component</th><th>Minimum</th><th>Recommended</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Operating System</td><td>Windows 10 (64-bit)</td><td>Windows 11 (64-bit)</td></tr>
+            <tr><td>RAM</td><td>4 GB</td><td>8 GB or more</td></tr>
+            <tr><td>GPU</td><td>Not required (CPU fallback)</td><td>DirectML-compatible GPU</td></tr>
+            <tr><td>Storage</td><td>500 MB free space</td><td>2 GB free space</td></tr>
+            <tr><td>Display</td><td>1366 × 768</td><td>1920 × 1080 or higher</td></tr>
+          </tbody>
+        </table>
+
+        <p style="font-size:14px;color:var(--fg-muted);">A DirectML-compatible GPU (NVIDIA, AMD, or Intel Arc) significantly speeds up AI features. On systems without one, the app automatically falls back to CPU — all features remain fully functional, just slower for AI tasks.</p>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           PRIVACY
+           ══════════════════════════════════════════════════ -->
+      <section class="section" id="privacy">
+        <h2>
+          <span class="section-icon" style="background:#E8FFFA;color:#17B890;">🔒</span>
+          Privacy &amp; Security
+        </h2>
+
+        <div class="feature-grid" style="margin-top:28px;">
+          <div class="feature-card">
+            <div class="card-icon bg-green">🛡️</div>
+            <h4>100% Offline Operation</h4>
+            <p>All AI models and image processing run on your local device. No internet connection is ever needed after installation.</p>
+          </div>
+          <div class="feature-card">
+            <div class="card-icon bg-orange">🚫</div>
+            <h4>Zero Data Upload</h4>
+            <p>Your images are processed in memory on your own machine. Nothing is ever transmitted to any server.</p>
+          </div>
+          <div class="feature-card">
+            <div class="card-icon bg-blue">👤</div>
+            <h4>No Account Required</h4>
+            <p>No sign-up, no login, no subscription. Download and start using immediately.</p>
+          </div>
+          <div class="feature-card">
+            <div class="card-icon bg-purple">📁</div>
+            <h4>Original Files Untouched</h4>
+            <p>Results are always saved as new files — your originals are never overwritten or modified.</p>
+          </div>
+        </div>
+
+        <div class="callout green" style="margin-top:24px;">
+          <strong>Your photos are your memories. They stay yours — on your device, under your control.</strong> Read our full <a href="en/privacy.html">Privacy Policy</a>.
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════
+           CONTACT
+           ══════════════════════════════════════════════════ -->
+      <section class="section" id="contact" style="border-bottom:none;">
+        <h2>
+          <span class="section-icon" style="background:#F3E8FF;color:#9B59B6;">✉️</span>
+          Contact Us
+        </h2>
+
+        <!-- "Still need help?" pre-footer -->
+        <div class="callout purple" style="margin-bottom:20px;">
+          <strong>Still have questions?</strong> Check the <a href="#faq">FAQ section</a> or <a href="#troubleshooting">Troubleshooting guide</a> above for quick answers to common issues.
+        </div>
+
+        <div class="contact-card">
+          <p style="font-size:15px;color:var(--fg-muted);">Have a question, suggestion, or need help? We'd love to hear from you.</p>
+          <a href="mailto:HummingbirdLabs@outlook.com" class="email-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+            HummingbirdLabs@outlook.com
+          </a>
+          <p style="font-size:12px;color:var(--fg-subtle);margin-top:8px;">We typically respond within 24–48 hours.</p>
+        </div>
+      </section>
+
+    </main><!-- /content-area -->
+  </div><!-- /page-wrapper -->
+
+  <!-- ── Mobile TOC Toggle ──────────────────────────────── -->
+  <button class="mobile-toc-toggle" id="mobileTocToggle" aria-label="Table of Contents" title="Table of Contents">
+    ☰
+  </button>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       BOTTOM CTA
+       ═══════════════════════════════════════════════════════════ -->
+  <div style="text-align:center;padding:48px 24px 32px;position:relative;z-index:1;">
+    <p style="font-size:1.3rem;font-weight:750;color:var(--fg-heading);margin-bottom:6px;">Ready to restore your photos?</p>
+    <p style="font-size:0.95rem;color:var(--fg-muted);margin-bottom:20px;">Free trial. No account. No upload. Your photos stay on your device.</p>
+    <a href="https://apps.microsoft.com/store/detail/PhotoRestore-Pro/9NBLGGH4R315" class="hero-download-btn" target="_blank" rel="noopener noreferrer">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"/></svg>
+      Download Free Trial
+    </a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <p>
+      &copy; 2026 PhotoRestore Pro &nbsp;·&nbsp;
+      <a href="en/privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+      <a href="ThirdPartyNotices.html">Third-Party Notices</a> &nbsp;·&nbsp;
+      <a href="mailto:HummingbirdLabs@outlook.com">HummingbirdLabs@outlook.com</a>
+    </p>
+  </footer>
+
+  <script>
+    // Mobile TOC toggle
+    const toc = document.getElementById('toc');
+    const toggle = document.getElementById('mobileTocToggle');
+
+    toggle.addEventListener('click', function() {
+      toc.classList.toggle('open');
+    });
+
+    // Close TOC when clicking a link (mobile)
+    toc.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        toc.classList.remove('open');
+      });
+    });
+  </script>
+
+</body>
+</html>
