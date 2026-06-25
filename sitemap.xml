@@ -1,0 +1,1446 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Help / User Guide pages -->
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_ar.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_de.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_es.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_fr.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_hi.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_it.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_ja.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_ko.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_nl.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_pt.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_ru.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_th.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_tr.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_vi.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_zh.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_id.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_pl.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_bn.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_uk.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_sv.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_tl.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/help_ro.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/help_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/help_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/help_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/help_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/help_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/help_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/help_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/help_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/help_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/help_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/help_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/help_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/help_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/help_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/help_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/help_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/help_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/help_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/help_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/help_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/help_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/help_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/help.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Introduction / Landing pages -->
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <image:image>
+      <image:loc>https://hummingbirdlabs.github.io/1.jpg</image:loc>
+      <image:caption>PhotoRestore Pro home screen — eight AI-powered feature cards</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hummingbirdlabs.github.io/2.jpg</image:loc>
+      <image:caption>Old Photo Restoration — before-and-after comparison</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hummingbirdlabs.github.io/3.jpg</image:loc>
+      <image:caption>AI Colorization — history brought to life</image:caption>
+    </image:image>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_ar.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_de.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_es.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_fr.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_hi.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_it.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_ja.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_ko.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_nl.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_pt.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_ru.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_th.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_tr.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_vi.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_zh.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_id.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_pl.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_bn.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_uk.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_sv.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_tl.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://hummingbirdlabs.github.io/introduction_ro.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://hummingbirdlabs.github.io/introduction_ar.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hummingbirdlabs.github.io/introduction_de.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hummingbirdlabs.github.io/introduction_es.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hummingbirdlabs.github.io/introduction_fr.html"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hummingbirdlabs.github.io/introduction_hi.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hummingbirdlabs.github.io/introduction_it.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://hummingbirdlabs.github.io/introduction_ja.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://hummingbirdlabs.github.io/introduction_ko.html"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://hummingbirdlabs.github.io/introduction_nl.html"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://hummingbirdlabs.github.io/introduction_pt.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://hummingbirdlabs.github.io/introduction_ru.html"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://hummingbirdlabs.github.io/introduction_th.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://hummingbirdlabs.github.io/introduction_tr.html"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://hummingbirdlabs.github.io/introduction_vi.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://hummingbirdlabs.github.io/introduction_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://hummingbirdlabs.github.io/introduction_id.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://hummingbirdlabs.github.io/introduction_pl.html"/>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://hummingbirdlabs.github.io/introduction_bn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://hummingbirdlabs.github.io/introduction_uk.html"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://hummingbirdlabs.github.io/introduction_sv.html"/>
+    <xhtml:link rel="alternate" hreflang="tl" href="https://hummingbirdlabs.github.io/introduction_tl.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://hummingbirdlabs.github.io/introduction_ro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://hummingbirdlabs.github.io/introduction.html"/>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-06-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
+

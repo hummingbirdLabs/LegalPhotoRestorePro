@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hummingbirdlabs.github.io/sitemap.xml
